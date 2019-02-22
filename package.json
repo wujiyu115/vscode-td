@@ -1,5 +1,7 @@
 {
-    "name": "td",
+    "name": "vscode-td",
+    "publisher": "wujiyu115",
+    "repository": "https://github.com/wujiyu115/vscode-td",
     "displayName": "td",
     "description": "type check of mongo",
     "version": "0.0.1",
