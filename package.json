@@ -1,0 +1,25 @@
+{
+    "name": "td",
+    "displayName": "td",
+    "description": "type check of mongo",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "td",
+            "aliases": ["td", "td"],
+            "extensions": [".td"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "td",
+            "scopeName": "source.td",
+            "path": "./syntaxes/td.tmLanguage"
+        }]
+    }
+}
